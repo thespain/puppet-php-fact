@@ -1,5 +1,9 @@
+[![Puppet Forge](https://img.shields.io/puppetforge/v/thespain/php_fact.svg)](https://forge.puppet.com/thespain/php_fact)
+[![GitHub tag](https://img.shields.io/github/tag/thespain/thespain-php_fact.svg)](https://github.com/thespain/thespain-php_fact)
+
+
 # puppet-php-fact
-Temporary repository for developing a Puppet custom PHP fact.
+A custom Puppet fact for reporting the full version of all installed PHP packages.
 
 ## What this fact returns
 
@@ -65,3 +69,19 @@ versions 5.6 and 7.0 from Red Hat.
   }
 }
 ```
+
+## Limitations
+
+This fact is currently only compatible with the Redhat osfamily.
+
+Not automated testing yet.
+
+## Development
+
+### Contributing
+
+Pull requests are welcome!
+
+#### Contributors
+
+Gene Liverman (@genebean) - Refactored for ease of readability and quicker execution time.
