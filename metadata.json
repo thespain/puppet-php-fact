@@ -1,0 +1,35 @@
+{
+    "name": "thespain-php_fact",
+    "version": "0.1.0",
+    "author": "Jake Spain",
+    "summary": "This module adds a custom PHP packages fact.",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/thespain/thespain-php_fact",
+    "project_page": "https://github.com/thespain/thespain-php_fact",
+    "issues_url": "https://github.com/thespain/thespain-php_fact/issues",
+    "operatingsystem_support": [
+      {
+        "operatingsystem": "RedHat",
+        "operatingsystemrelease": [
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "CentOS",
+        "operatingsystemrelease": [
+          "6",
+          "7"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "name": "puppet",
+        "version_requirement": ">= 4.7.0 < 6.0.0"
+      }
+    ],
+    "description": "A custom Puppet fact for reporting the full version of all installed PHP packages."
+  }
+  
+  
