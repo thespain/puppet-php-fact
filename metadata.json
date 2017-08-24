@@ -1,6 +1,6 @@
 {
     "name": "thespain-php_fact",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "author": "Jake Spain",
     "summary": "This module adds a custom PHP packages fact.",
     "license": "BSD-3-Clause",
